@@ -1,0 +1,577 @@
+*,
+html,
+body{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+:root{
+    --main-color : #fff;
+    --sec-color : #595959;
+    --third-color : #DFDFDF;
+    --sec-font-color: #FFBB0C;
+    --sub-color: #EDEDED;;
+}
+
+.con-login {
+  
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con-login .login {
+    width: 500px;
+    height: 500px;
+    background-color: var(--sec-color);
+    border-radius: 50%;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.con-login .login a{
+    color: var(--sec-font-color);
+}
+.con-login .login input {
+    background-color: var(--main-color);
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    width: 200px;
+    margin-top: 10px;
+}
+.con-login .login .button {
+    background: var(--sec-font-color);
+    margin-top: 10px;
+    width: 80px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    color: var(--main-color);
+}
+.con-login .login .button:hover {
+    background-color: var(--main-color);
+    color: var(--sec-font-color);
+    transition: 0.3s ease-in-out;
+}
+
+
+/* dashboard */
+.con-base{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+nav {
+    position: fixed;
+    width: 260px;
+    height: 100vh;
+    background: var(--sec-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+nav img {
+    width: 200px;
+    padding-top: 20px;
+}
+
+nav .con-nav {
+    margin-top: 20px;
+    font-size: 20px;
+   
+    
+    
+}
+nav .con-nav ul {
+    display: block;
+    
+}
+nav .con-nav ul li {
+    padding-top: 15px;
+   
+}
+nav .con-nav ul li .con-el{
+    width: 190px;
+    background: var(--main-color);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+nav .con-nav ul li a {
+    width: 250px;
+    color: #000 ;
+    
+}
+nav .con-nav ul li .con-el .shape12 {
+    width: 20px;
+    height:15px;
+    border-radius: 50%;
+    background-color: var(--sec-font-color);
+    justify-content: center;
+}
+.conside2 {
+    padding-top: 20px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 260px;
+    
+
+}
+.con-base .con-log {
+    width: 1000px;
+    height:55px;
+    background-color: var(--third-color);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.con-base .con-log a {
+    background: var(--main-color);
+    padding: 10px;
+    border-radius: 10px;
+    color: #000;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.con-isi {
+    width: 1000px;
+    height: 674px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.con-isi  .con-kol {
+    width: 1000px ;
+    height: 300px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 10px;
+   
+    
+}
+
+.con-isi  .con-kol .kol1 {
+    width: 550px;
+    height: 260px;
+    background-color: var(--sub-color);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con-isi  .con-kol .kol1 .isi-kol{
+    width: 95%;
+    height: 90%;
+}
+.con-isi  .con-kol .kol1 .isi-kol a {
+    font-size: 20px;
+    background-color: var(--third-color);
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+.isi-kol2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px; /* Jarak antara kolom */
+    margin-top: 10px;
+    height: 200px;
+  }
+  
+  .column {
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+  }
+  .con-isian{
+    width: 160px;
+    height: 100%;
+
+  }
+  .con-shape {
+    width: 140px;
+    height: 75%;
+    display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap:15px;
+   
+  }
+  
+.shape {
+    flex: 1;
+    box-sizing: border-box;
+    
+  }
+  #shape1 {
+    height: 60px;
+    width: 10px;
+    background-color: #C4C4C4;
+  }
+  
+  #shape2 {
+    height: 80px;
+    width: 10px;
+    background-color: #C4C4C4;
+  }
+  
+  #shape3 {
+    height: 100px;
+    width: 10px;
+    background-color:#C4C4C4;
+  }
+  
+  #shape4 {
+    height: 120px;
+    width: 10px;
+    background-color: #C4C4C4;
+  }
+
+.sub{
+    text-align: center;
+    margin-top: 15px;
+
+    
+}
+.sub p {
+    
+    background: var(--main-color);
+}
+
+.sub-angka {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-angka p {
+    font-size: 86px;
+}
+
+.con-isi  .con-kol .kol2 {
+    width: 550px;
+    height: 260px;
+    background-color: var(--sub-color);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con-isi  .conkol2 {
+    width: 1000px ;
+    height: 300px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 10px;
+
+    
+}
+.con-isi  .conkol2 .kol2 {
+    width: 550px;
+    height: 300px;
+    background-color: var(--sub-color);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con-isi  .conkol2 .kol2 .isi-kol{
+    width: 95%;
+    height: 90%;
+}
+.con-isi  .conkol2 .kol2 .isi-kol a{
+    font-size: 20px;
+    background-color: var(--third-color);
+    padding: 5px 15px;
+    border-radius: 15px;
+
+}
+.con-isi  .conkol2 .kol2 .isi-kol .con-jadwal {
+    width: 100%;
+    height: 230px;
+    background-color: var(--main-color);
+    margin-top: 15px;
+}
+.jadwal{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
+  .item2 {
+    background-color: #f0f0f0;
+   height: 100px;
+   position: relative;
+
+  }
+
+  .kotakan {
+    width: 100px;
+    height: 60px;
+    background: var(--third-color);
+    margin: 10px;
+    position: absolute;
+    bottom: 0;
+
+  }
+
+  .kol2 .isi-kol img{
+    width: 400px;
+    height: 150px;
+    margin-top: 10px;
+  }
+  .a-isi {
+    font-size: 12px;
+    background-color: var(--third-color);
+    width: 115px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+
+
+/* data pengjasilan */
+.con-gaji {
+    width: 1000px;
+    height: 360px;
+    background: var(--sub-color);
+}
+.con-gaji2{
+    margin-top: 20px;
+    width: 1000spx;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+  
+    justify-content: end;
+}
+.sub-gaji {
+    width: 1000px; 
+    height: 40px;
+    background:var(--third-color);
+    display: flex;
+    align-items: center;
+
+}
+.sub-gaji p {
+    font-size: 18px;
+    padding-left: 10px;
+}
+.gaji {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    
+  }
+  .con-gaji2 img{
+    height: 250px;
+    padding-right: 20px;
+  }
+  .item {
+    background-color: var(--main-color);
+    padding: 20px;
+    height: 250px;
+  }
+
+
+
+
+
+
+
+
+.con-pem {
+    width: 300px;
+    height: 240px;
+    background-color: var(--sub-color);
+    
+}
+.sub-pem{
+    height: 40px;
+    background-color: var(--third-color);
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.pempem {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 5px;
+  }
+  
+  .item1 {
+    background-color: var(--third-color);
+    padding: 5px;
+    height: 80px;
+    position: relative;
+    
+    
+  }
+  .kotakanmase {
+    height: 60px;
+    background: var(--main-color);
+    margin-top: 20px;
+    
+  }
+  .pesanan {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .itemku {
+    background-color: var(--main-color);
+    padding: 10px;
+    height: 22px;
+  }
+  .con-pesan{
+    margin-top: 10px;
+    width: 1000px;
+    height: 250px;
+    display: flex;
+  }
+  .pesanges {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .itemges {
+    background: var(--sub-color);
+    padding: 20px;
+    width: 354px;
+  }
+  .itemges a {
+    padding: 5px 10px;
+    background: var(--third-color);
+    border-radius: 10px;
+  }
+  .col-ges{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+  }
+  .sub-angka1{
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+  }
+  .con-isian1{
+    width: 140px;
+    height: 100%;
+
+  }
+  .con-shape1 {
+    width: 120px;
+    height: 75%;
+    display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap:15px;
+   
+  }
+  .sub-ges {
+    height: 40px;
+    background-color: var(--third-color);
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 18px;
+
+  }
+  .itemges1 {
+    background: var(--sub-color);
+    width: 354px;
+  }
+  .report {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .isian1{
+    width: 650px;
+    height: 650px;
+    background-color: var(--third-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .isian2{
+    width: 300px;
+    height: 650px;
+    background-color: var(--third-color);
+  }
+  .kotakancoy {
+    width: 600px;
+    height: 630px;
+    background-color: var(--main-color);
+  }
+  .pipi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 20px 20px;
+    justify-content: center;
+    
+  }
+  
+  .mimi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+
+  }
+  .becak{
+
+      padding: 0px 30px;
+  }
+  .edit {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 25px;
+
+  }
+  .edit1 {
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 25px;
+
+  }
